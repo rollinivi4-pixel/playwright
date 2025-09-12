@@ -1,0 +1,110 @@
+{
+  "testName": "Add Customer Test",
+  "testStatus": "failed",
+  "timestamp": "2025-09-10T06:51:27.975Z",
+  "consoleErrors": [
+    {
+      "type": "console",
+      "message": "Error getting FCM token: FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).\n    at getToken$1 (http://192.168.0.100:3000/static/js/bundle.js:512292:25)\n    at getToken (http://192.168.0.100:3000/static/js/bundle.js:512598:10)\n    at requestNotificationPermission (http://192.168.0.100:3000/static/js/bundle.js:6414:88)\n    at http://192.168.0.100:3000/static/js/bundle.js:6356:5\n    at commitHookEffectListMount (http://192.168.0.100:3000/static/js/bundle.js:401232:30)\n    at commitPassiveMountOnFiber (http://192.168.0.100:3000/static/js/bundle.js:402984:17)\n    at commitPassiveMountEffects_complete (http://192.168.0.100:3000/static/js/bundle.js:402949:13)\n    at commitPassiveMountEffects_begin (http://192.168.0.100:3000/static/js/bundle.js:402936:11)\n    at commitPassiveMountEffects (http://192.168.0.100:3000/static/js/bundle.js:402924:7)\n    at flushPassiveEffectsImpl (http://192.168.0.100:3000/static/js/bundle.js:405081:7)",
+      "location": {
+        "url": "http://192.168.0.100:3000/static/js/bundle.js",
+        "lineNumber": 6420,
+        "columnNumber": 14
+      },
+      "timestamp": "2025-09-10T06:50:36.862Z"
+    },
+    {
+      "type": "console",
+      "message": "Warning: Use the `defaultValue` or `value` props on <select> instead of setting `selected` on <option>.%s \n    at option\n    at select\n    at http://192.168.0.100:3000/static/js/bundle.js:365010:5\n    at div\n    at Flex (http://192.168.0.100:3000/static/js/bundle.js:30441:5)\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:369295:7\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:362595:5\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:363349:8\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:367728:5\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:363505:5\n    at section\n    at Section (http://192.168.0.100:3000/static/js/bundle.js:33238:5)\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:369295:7\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:362595:5\n    at AuthSimpleLayout (http://192.168.0.100:3000/static/js/src_layouts_AuthSimpleLayout_js.chunk.js:69:68)\n    at Suspense\n    at Routes (http://192.168.0.100:3000/static/js/bundle.js:434962:5)\n    at Layout (http://192.168.0.100:3000/static/js/bundle.js:79576:82)\n    at div\n    at div\n    at SocketProvider (http://192.168.0.100:3000/static/js/bundle.js:76180:5)\n    at App (http://192.168.0.100:3000/static/js/bundle.js:6263:56)\n    at Rt (http://192.168.0.100:3000/static/js/bundle.js:409501:11)\n    at Main (http://192.168.0.100:3000/static/js/bundle.js:7968:85)\n    at Router (http://192.168.0.100:3000/static/js/bundle.js:434895:15)\n    at BrowserRouter (http://192.168.0.100:3000/static/js/bundle.js:433480:5)\n    at PersistGate (http://192.168.0.100:3000/static/js/bundle.js:447928:5)\n    at Provider (http://192.168.0.100:3000/static/js/bundle.js:532349:5)",
+      "location": {
+        "url": "http://192.168.0.100:3000/static/js/bundle.js",
+        "lineNumber": 378334,
+        "columnNumber": 33
+      },
+      "timestamp": "2025-09-10T06:50:37.427Z"
+    },
+    {
+      "type": "console",
+      "message": "Warning: Invalid DOM property `%s`. Did you mean `%s`?%s autocomplete autoComplete \n    at input\n    at http://192.168.0.100:3000/static/js/bundle.js:364754:5\n    at div\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:364840:5\n    at form\n    at http://192.168.0.100:3000/static/js/bundle.js:364476:5\n    at div\n    at div\n    at LoginForm (http://192.168.0.100:3000/static/js/src_components_authentication_simple_Login_js.chunk.js:72:56)\n    at Login (http://192.168.0.100:3000/static/js/src_components_authentication_simple_Login_js.chunk.js:1039:68)\n    at Suspense\n    at Outlet (http://192.168.0.100:3000/static/js/bundle.js:434870:26)\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:369295:7\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:362595:5\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:363349:8\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:367728:5\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:363505:5\n    at section\n    at Section (http://192.168.0.100:3000/static/js/bundle.js:33238:5)\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:369295:7\n    at div\n    at http://192.168.0.100:3000/static/js/bundle.js:362595:5\n    at AuthSimpleLayout (http://192.168.0.100:3000/static/js/src_layouts_AuthSimpleLayout_js.chunk.js:69:68)\n    at Suspense\n    at Routes (http://192.168.0.100:3000/static/js/bundle.js:434962:5)\n    at Layout (http://192.168.0.100:3000/static/js/bundle.js:79576:82)\n    at div\n    at div\n    at SocketProvider (http://192.168.0.100:3000/static/js/bundle.js:76180:5)\n    at App (http://192.168.0.100:3000/static/js/bundle.js:6263:56)\n    at Rt (http://192.168.0.100:3000/static/js/bundle.js:409501:11)\n    at Main (http://192.168.0.100:3000/static/js/bundle.js:7968:85)\n    at Router (http://192.168.0.100:3000/static/js/bundle.js:434895:15)\n    at BrowserRouter (http://192.168.0.100:3000/static/js/bundle.js:433480:5)\n    at PersistGate (http://192.168.0.100:3000/static/js/bundle.js:447928:5)\n    at Provider (http://192.168.0.100:3000/static/js/bundle.js:532349:5)",
+      "location": {
+        "url": "http://192.168.0.100:3000/static/js/bundle.js",
+        "lineNumber": 378334,
+        "columnNumber": 33
+      },
+      "timestamp": "2025-09-10T06:50:41.600Z"
+    },
+    {
+      "type": "console",
+      "message": "Error getting FCM token: FirebaseError: Messaging: The notification permission was not granted and blocked instead. (messaging/permission-blocked).\n    at getToken$1 (http://192.168.0.100:3000/static/js/bundle.js:512292:25)\n    at getToken (http://192.168.0.100:3000/static/js/bundle.js:512598:10)\n    at requestNotificationPermission (http://192.168.0.100:3000/static/js/bundle.js:6414:88)\n    at http://192.168.0.100:3000/static/js/bundle.js:6356:5\n    at commitHookEffectListMount (http://192.168.0.100:3000/static/js/bundle.js:401232:30)\n    at commitPassiveMountOnFiber (http://192.168.0.100:3000/static/js/bundle.js:402984:17)\n    at commitPassiveMountEffects_complete (http://192.168.0.100:3000/static/js/bundle.js:402949:13)\n    at commitPassiveMountEffects_begin (http://192.168.0.100:3000/static/js/bundle.js:402936:11)\n    at commitPassiveMountEffects (http://192.168.0.100:3000/static/js/bundle.js:402924:7)\n    at flushPassiveEffectsImpl (http://192.168.0.100:3000/static/js/bundle.js:405081:7)",
+      "location": {
+        "url": "http://192.168.0.100:3000/static/js/bundle.js",
+        "lineNumber": 6420,
+        "columnNumber": 14
+      },
+      "timestamp": "2025-09-10T06:51:06.896Z"
+    },
+    {
+      "type": "console",
+      "message": "Warning: Each child in a list should have a unique \"key\" prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s \n\nCheck the render method of `TopNavBar`.  \n    at http://192.168.0.100:3000/static/js/bundle.js:363842:5\n    at TopNavBar (http://192.168.0.100:3000/static/js/bundle.js:58124:56)\n    at div\n    at div\n    at SocketProvider (http://192.168.0.100:3000/static/js/bundle.js:76180:5)\n    at App (http://192.168.0.100:3000/static/js/bundle.js:6263:56)\n    at Rt (http://192.168.0.100:3000/static/js/bundle.js:409501:11)\n    at Main (http://192.168.0.100:3000/static/js/bundle.js:7968:85)\n    at Router (http://192.168.0.100:3000/static/js/bundle.js:434895:15)\n    at BrowserRouter (http://192.168.0.100:3000/static/js/bundle.js:433480:5)\n    at PersistGate (http://192.168.0.100:3000/static/js/bundle.js:447928:5)\n    at Provider (http://192.168.0.100:3000/static/js/bundle.js:532349:5)",
+      "location": {
+        "url": "http://192.168.0.100:3000/static/js/bundle.js",
+        "lineNumber": 442227,
+        "columnNumber": 33
+      },
+      "timestamp": "2025-09-10T06:51:10.175Z"
+    },
+    {
+      "type": "console",
+      "message": "Error getting sales order config data: TypeError: responseData is not iterable\n    at getAllSalesOrderConfigData (http://192.168.0.100:3000/static/js/bundle.js:35621:28)",
+      "location": {
+        "url": "http://192.168.0.100:3000/static/js/bundle.js",
+        "lineNumber": 35633,
+        "columnNumber": 14
+      },
+      "timestamp": "2025-09-10T06:51:13.524Z"
+    },
+    {
+      "type": "console",
+      "message": "Error getting inventory config data: TypeError: responseData is not iterable\n    at getAllInventoryConfigData (http://192.168.0.100:3000/static/js/bundle.js:35569:28)",
+      "location": {
+        "url": "http://192.168.0.100:3000/static/js/bundle.js",
+        "lineNumber": 35579,
+        "columnNumber": 14
+      },
+      "timestamp": "2025-09-10T06:51:13.542Z"
+    },
+    {
+      "type": "console",
+      "message": "Error getting fulfillment config data: TypeError: responseData is not iterable\n    at getAllFulfillmentConfigData (http://192.168.0.100:3000/static/js/bundle.js:35594:28)",
+      "location": {
+        "url": "http://192.168.0.100:3000/static/js/bundle.js",
+        "lineNumber": 35606,
+        "columnNumber": 14
+      },
+      "timestamp": "2025-09-10T06:51:13.542Z"
+    }
+  ],
+  "networkErrors": [
+    {
+      "type": "request_failed",
+      "url": "https://southindia-0.in.applicationinsights.azure.com/v2/track",
+      "failure": "net::ERR_ABORTED",
+      "timestamp": "2025-09-10T06:51:04.811Z"
+    },
+    {
+      "type": "network",
+      "url": "http://192.168.0.100:3000/static/js/bundle.js",
+      "status": 304,
+      "statusText": "Not Modified",
+      "timestamp": "2025-09-10T06:51:04.909Z"
+    },
+    {
+      "type": "network",
+      "url": "http://192.168.0.100:3000/css/theme.min.css",
+      "status": 304,
+      "statusText": "Not Modified",
+      "timestamp": "2025-09-10T06:51:06.623Z"
+    }
+  ],
+  "totalErrors": 11
+}

@@ -1,0 +1,391 @@
+{
+  "testName": "Add Customer Test",
+  "testStatus": "failed",
+  "timestamp": "2025-09-10T09:30:46.936Z",
+  "summary": {
+    "totalRequests": 18,
+    "totalErrors": 1,
+    "consoleErrors": 0,
+    "networkErrors": 1,
+    "apiCalls": 4
+  },
+  "consoleErrors": [],
+  "networkErrors": [
+    {
+      "type": "request_failed",
+      "method": "GET",
+      "url": "http://192.168.0.100:3000/static/js/bundle.js",
+      "failure": "net::ERR_ABORTED",
+      "timestamp": "2025-09-10T09:30:27.431Z",
+      "resourceType": "script"
+    }
+  ],
+  "allNetworkRequests": [
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://192.168.0.100:3000/",
+      "headers": {
+        "accept-language": "en-US",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36"
+      },
+      "postData": null,
+      "timestamp": "2025-09-10T09:29:48.282Z",
+      "resourceType": "document"
+    },
+    {
+      "type": "response",
+      "method": "GET",
+      "url": "http://192.168.0.100:3000/",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-headers": "*",
+        "access-control-allow-methods": "*",
+        "access-control-allow-origin": "*",
+        "connection": "keep-alive",
+        "content-length": "825",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Wed, 10 Sep 2025 09:29:50 GMT",
+        "etag": "W/\"339-hDmFBcZHY1wX/b0EoMCIbVbdspY\"",
+        "keep-alive": "timeout=5",
+        "vary": "Accept-Encoding",
+        "x-powered-by": "Express"
+      },
+      "timestamp": "2025-09-10T09:29:50.188Z",
+      "resourceType": "document",
+      "size": 0,
+      "time": 0
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://192.168.0.100:3000/static/js/bundle.js",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36",
+        "accept-language": "en-US",
+        "referer": "http://192.168.0.100:3000/"
+      },
+      "postData": null,
+      "timestamp": "2025-09-10T09:29:50.212Z",
+      "resourceType": "script"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyDgvcsoFQrh7Pg1tOAaQiS4AGFUc74x9qw&libraries=places",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "http://192.168.0.100:3000/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "accept-language": "en-US",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "timestamp": "2025-09-10T09:29:50.212Z",
+      "resourceType": "script"
+    },
+    {
+      "type": "response",
+      "method": "GET",
+      "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyDgvcsoFQrh7Pg1tOAaQiS4AGFUc74x9qw&libraries=places",
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "cache-control": "public, max-age=1800, stale-while-revalidate=12600",
+        "timing-allow-origin": "*",
+        "content-encoding": "gzip",
+        "etag": "e9c5e03e",
+        "cross-origin-resource-policy": "cross-origin",
+        "x-content-type-options": "nosniff",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "169471",
+        "date": "Wed, 10 Sep 2025 09:29:50 GMT",
+        "x-xss-protection": "0",
+        "content-type": "text/javascript; charset=UTF-8",
+        "vary": "Accept-Language, Origin, X-Origin, Referer",
+        "server": "scaffolding on HTTPServer2",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "timestamp": "2025-09-10T09:29:50.771Z",
+      "resourceType": "script",
+      "size": 0,
+      "time": 0
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "http://192.168.0.100:3000/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "accept-language": "en-US",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "timestamp": "2025-09-10T09:29:50.849Z",
+      "resourceType": "xhr"
+    },
+    {
+      "type": "response",
+      "method": "GET",
+      "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "access-control-expose-headers": "vary,vary,vary,content-encoding,date,server,content-length",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "access-control-allow-origin": "http://192.168.0.100:3000",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "23",
+        "date": "Wed, 10 Sep 2025 09:29:50 GMT",
+        "x-xss-protection": "0",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "server": "scaffolding on HTTPServer2",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "timestamp": "2025-09-10T09:29:50.980Z",
+      "resourceType": "xhr",
+      "size": 3,
+      "time": 0,
+      "responseBody": "{}\n"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/3c/common.js",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "http://192.168.0.100:3000/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "accept-language": "en-US",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "timestamp": "2025-09-10T09:29:55.864Z",
+      "resourceType": "script"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/3c/util.js",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "http://192.168.0.100:3000/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "accept-language": "en-US",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "timestamp": "2025-09-10T09:29:55.864Z",
+      "resourceType": "script"
+    },
+    {
+      "type": "response",
+      "method": "GET",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/3c/common.js",
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-encoding": "br",
+        "age": "7803",
+        "report-to": "{\"group\":\"maps-api-js\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/maps-api-js\"}]}",
+        "x-content-type-options": "nosniff",
+        "expires": "Thu, 10 Sep 2026 07:19:53 GMT",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "date": "Wed, 10 Sep 2025 07:19:53 GMT",
+        "last-modified": "Tue, 02 Sep 2025 07:40:34 GMT",
+        "content-type": "text/javascript",
+        "vary": "Accept-Encoding, Origin",
+        "cache-control": "public, max-age=31536000",
+        "timing-allow-origin": "*",
+        "cross-origin-opener-policy": "same-origin; report-to=\"maps-api-js\"",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/maps-api-js",
+        "accept-ranges": "bytes",
+        "content-length": "37299",
+        "x-xss-protection": "0",
+        "server": "sffe"
+      },
+      "timestamp": "2025-09-10T09:29:56.014Z",
+      "resourceType": "script",
+      "size": 0,
+      "time": 0
+    },
+    {
+      "type": "response",
+      "method": "GET",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/62/3c/util.js",
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "content-encoding": "br",
+        "age": "16925",
+        "report-to": "{\"group\":\"maps-api-js\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/maps-api-js\"}]}",
+        "x-content-type-options": "nosniff",
+        "expires": "Thu, 10 Sep 2026 04:47:51 GMT",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "date": "Wed, 10 Sep 2025 04:47:51 GMT",
+        "last-modified": "Tue, 02 Sep 2025 07:40:34 GMT",
+        "content-type": "text/javascript",
+        "vary": "Accept-Encoding, Origin",
+        "cache-control": "public, max-age=31536000",
+        "timing-allow-origin": "*",
+        "cross-origin-opener-policy": "same-origin; report-to=\"maps-api-js\"",
+        "cross-origin-resource-policy": "cross-origin",
+        "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/maps-api-js",
+        "accept-ranges": "bytes",
+        "content-length": "72261",
+        "x-xss-protection": "0",
+        "server": "sffe"
+      },
+      "timestamp": "2025-09-10T09:29:56.066Z",
+      "resourceType": "script",
+      "size": 0,
+      "time": 0
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://192.168.0.100:3000/",
+      "headers": {
+        "accept-language": "en-US",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36"
+      },
+      "postData": null,
+      "timestamp": "2025-09-10T09:30:27.937Z",
+      "resourceType": "document"
+    },
+    {
+      "type": "response",
+      "method": "GET",
+      "url": "http://192.168.0.100:3000/",
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-headers": "*",
+        "access-control-allow-methods": "*",
+        "access-control-allow-origin": "*",
+        "content-length": "825",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Wed, 10 Sep 2025 09:30:43 GMT",
+        "etag": "W/\"339-hDmFBcZHY1wX/b0EoMCIbVbdspY\"",
+        "vary": "Accept-Encoding",
+        "x-powered-by": "Express"
+      },
+      "timestamp": "2025-09-10T09:30:43.193Z",
+      "resourceType": "document",
+      "size": 0,
+      "time": 0
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "http://192.168.0.100:3000/static/js/bundle.js",
+      "headers": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36",
+        "accept-language": "en-US",
+        "referer": "http://192.168.0.100:3000/"
+      },
+      "postData": null,
+      "timestamp": "2025-09-10T09:30:43.212Z",
+      "resourceType": "script"
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyDgvcsoFQrh7Pg1tOAaQiS4AGFUc74x9qw&libraries=places",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "http://192.168.0.100:3000/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "accept-language": "en-US",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "timestamp": "2025-09-10T09:30:43.213Z",
+      "resourceType": "script"
+    },
+    {
+      "type": "response",
+      "method": "GET",
+      "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyDgvcsoFQrh7Pg1tOAaQiS4AGFUc74x9qw&libraries=places",
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "cache-control": "public, max-age=1800, stale-while-revalidate=12600",
+        "timing-allow-origin": "*",
+        "content-encoding": "gzip",
+        "etag": "e9c5e03e",
+        "cross-origin-resource-policy": "cross-origin",
+        "x-content-type-options": "nosniff",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "169471",
+        "date": "Wed, 10 Sep 2025 09:29:50 GMT",
+        "x-xss-protection": "0",
+        "content-type": "text/javascript; charset=UTF-8",
+        "vary": "Accept-Language, Origin, X-Origin, Referer",
+        "server": "scaffolding on HTTPServer2",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "timestamp": "2025-09-10T09:30:43.213Z",
+      "resourceType": "script",
+      "size": 0,
+      "time": 0
+    },
+    {
+      "type": "request",
+      "method": "GET",
+      "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+      "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "http://192.168.0.100:3000/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "accept-language": "en-US",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "postData": null,
+      "timestamp": "2025-09-10T09:30:43.237Z",
+      "resourceType": "xhr"
+    },
+    {
+      "type": "response",
+      "method": "GET",
+      "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "access-control-expose-headers": "vary,vary,vary,content-encoding,date,server,content-length",
+        "content-encoding": "gzip",
+        "x-content-type-options": "nosniff",
+        "access-control-allow-origin": "http://192.168.0.100:3000",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "content-length": "23",
+        "date": "Wed, 10 Sep 2025 09:30:43 GMT",
+        "x-xss-protection": "0",
+        "content-type": "application/json; charset=UTF-8",
+        "vary": "Origin, X-Origin, Referer",
+        "server": "scaffolding on HTTPServer2",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "timestamp": "2025-09-10T09:30:43.410Z",
+      "resourceType": "xhr",
+      "size": 3,
+      "time": 0,
+      "responseBody": "{}\n"
+    }
+  ]
+}
