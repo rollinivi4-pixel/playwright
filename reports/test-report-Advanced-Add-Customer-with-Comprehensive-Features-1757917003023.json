@@ -1,0 +1,54 @@
+{
+  "testInfo": {
+    "title": "Advanced Add Customer with Comprehensive Features",
+    "status": "timedOut",
+    "duration": 30015,
+    "annotations": [
+      {
+        "type": "test-id",
+        "description": "TEST-ADVANCED-ADD-CUSTOMER-WITH-COMPREHENSIVE-FEATURES"
+      },
+      {
+        "type": "priority",
+        "description": "High"
+      },
+      {
+        "type": "feature",
+        "description": "Customer Management"
+      },
+      {
+        "type": "tags",
+        "description": "smoke,regression,customer-management,ui,api"
+      },
+      {
+        "type": "description",
+        "description": "Comprehensive test for adding a new customer with advanced Playwright features including hooks, keyboard actions, screenshots, video recording, performance tracking, and network monitoring"
+      }
+    ]
+  },
+  "performance": {
+    "totalDuration": 19938,
+    "pageLoadTimes": [],
+    "networkRequests": 0,
+    "consoleErrors": 0,
+    "networkErrors": 0,
+    "customTimings": {
+      "total-test-duration": {
+        "start": 1757916983092,
+        "end": 1757917003023,
+        "duration": 19931
+      },
+      "login-process": {
+        "start": 1757916983094
+      }
+    }
+  },
+  "network": {
+    "totalRequests": 1,
+    "totalResponses": 0,
+    "failedRequests": 0,
+    "apiCalls": 0
+  },
+  "screenshots": [],
+  "timestamp": "2025-09-15T06:16:43.023Z"
+}

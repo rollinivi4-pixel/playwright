@@ -1,0 +1,55 @@
+{
+  "development": {
+    "name": "Development Environment",
+    "baseUrl": "http://localhost:3000",
+    "apiUrl": "http://localhost:3000/api",
+    "timeout": 30000,
+    "retries": 1,
+    "headless": false,
+    "slowMo": 100,
+    "screenshot": "only-on-failure",
+    "video": "retain-on-failure",
+    "trace": "retain-on-failure"
+  },
+  "staging": {
+    "name": "Staging Environment",
+    "baseUrl": "https://staging.example.com",
+    "apiUrl": "https://staging.example.com/api",
+    "timeout": 60000,
+    "retries": 2,
+    "headless": true,
+    "slowMo": 0,
+    "screenshot": "only-on-failure",
+    "video": "retain-on-failure",
+    "trace": "retain-on-failure"
+  },
+  "production": {
+    "name": "Production Environment",
+    "baseUrl": "https://example.com",
+    "apiUrl": "https://example.com/api",
+    "timeout": 90000,
+    "retries": 3,
+    "headless": true,
+    "slowMo": 0,
+    "screenshot": "only-on-failure",
+    "video": "retain-on-failure",
+    "trace": "retain-on-failure"
+  },
+  "ezscm": {
+    "name": "ezSCM Application",
+    "baseUrl": "http://192.168.0.100:3000",
+    "apiUrl": "http://192.168.0.100:3000/api",
+    "timeout": 60000,
+    "retries": 2,
+    "headless": false,
+    "slowMo": 100,
+    "screenshot": "on",
+    "video": "retain-on-failure",
+    "trace": "retain-on-failure",
+    "fallbackUrls": [
+      "http://localhost:3000",
+      "http://127.0.0.1:3000",
+      "https://stagingaz.ezscm.ai"
+    ]
+  }
+}

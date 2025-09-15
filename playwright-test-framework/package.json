@@ -1,0 +1,74 @@
+{
+  "name": "playwright-test-framework",
+  "version": "1.0.0",
+  "description": "A comprehensive, beginner-friendly Playwright test framework for web application testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:safari": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project='Mobile Chrome' --project='Mobile Safari'",
+    "test:tablet": "playwright test --project='iPad'",
+    "test:simple": "playwright test tests/examples/simple/",
+    "test:standard": "playwright test tests/examples/standard/",
+    "test:advanced": "playwright test tests/examples/advanced/",
+    "test:ezscm": "ENVIRONMENT=ezscm playwright test",
+    "test:dev": "ENVIRONMENT=development playwright test --headed",
+    "test:staging": "ENVIRONMENT=staging playwright test",
+    "test:prod": "ENVIRONMENT=production playwright test",
+    "test:parallel": "playwright test --workers=4",
+    "test:serial": "playwright test --workers=1",
+    "test:retry": "playwright test --retries=3",
+    "test:update-snapshots": "playwright test --update-snapshots",
+    "test:codegen": "playwright codegen",
+    "test:show-report": "playwright show-report",
+    "test:show-trace": "playwright show-trace",
+    "install": "playwright install",
+    "install:deps": "playwright install-deps",
+    "report": "playwright show-report",
+    "clean": "rimraf test-results playwright-report screenshots videos",
+    "clean:all": "rimraf test-results playwright-report screenshots videos node_modules package-lock.json",
+    "setup": "npm install && npx playwright install",
+    "check-urls": "node scripts/check-urls.js",
+    "generate-test": "node scripts/generate-test.js",
+    "validate-config": "node scripts/validate-config.js",
+    "start": "echo 'Please start your application server manually'",
+    "dev": "echo 'Please start your application in development mode'"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "e2e",
+    "framework",
+    "web-testing",
+    "browser-testing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "rimraf": "^5.0.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/playwright-test-framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/playwright-test-framework/issues"
+  },
+  "homepage": "https://github.com/your-username/playwright-test-framework#readme"
+}

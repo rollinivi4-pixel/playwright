@@ -1,0 +1,86 @@
+{
+  "common": {
+    "loading": ".loading, .spinner, [data-test='loading']",
+    "error": ".error, .alert-danger, [data-test='error']",
+    "success": ".success, .alert-success, [data-test='success']",
+    "modal": ".modal, [role='dialog'], [data-test='modal']",
+    "button": {
+      "primary": "button[type='submit'], .btn-primary, [data-test='primary-button']",
+      "secondary": ".btn-secondary, [data-test='secondary-button']",
+      "cancel": ".btn-cancel, [data-test='cancel-button']",
+      "close": ".btn-close, [data-test='close-button']"
+    }
+  },
+  "login": {
+    "email": "input[type='email'], input[placeholder*='email' i], input[name*='email' i], #email",
+    "password": "input[type='password'], input[placeholder*='password' i], input[name*='password' i], #password",
+    "checkbox": "input[type='checkbox'], [data-test='keep-logged-in']",
+    "loginButton": "button[type='submit'], button:has-text('Log in'), button:has-text('Login'), [data-test='login-button']",
+    "forgotPassword": "a:has-text('Forgot'), a:has-text('Reset'), [data-test='forgot-password']",
+    "errorMessage": ".error-message, .alert-danger, [data-test='login-error']"
+  },
+  "navigation": {
+    "menu": ".menu, .navbar, [data-test='navigation']",
+    "salesOrders": "text=Sales Orders, [data-test='sales-orders'], a:has-text('Sales Orders')",
+    "customers": "text=Customers, [data-test='customers'], a:has-text('Customers')",
+    "products": "text=Products, [data-test='products'], a:has-text('Products')",
+    "dashboard": "text=Dashboard, [data-test='dashboard'], a:has-text('Dashboard')",
+    "logout": "text=Logout, [data-test='logout'], a:has-text('Logout')"
+  },
+  "customer": {
+    "form": {
+      "firstName": "input[placeholder*='first' i], input[name*='first' i], [data-test='first-name']",
+      "lastName": "input[placeholder*='last' i], input[name*='last' i], [data-test='last-name']",
+      "email": "input[type='email'], input[placeholder*='email' i], [data-test='email']",
+      "phone": "input[type='tel'], input[placeholder*='phone' i], input[placeholder*='mobile' i], [data-test='phone']",
+      "address": "input[placeholder*='address' i], textarea[placeholder*='address' i], [data-test='address']",
+      "pincode": "input[placeholder*='pincode' i], input[placeholder*='zip' i], [data-test='pincode']"
+    },
+    "buttons": {
+      "add": "button:has-text('Add Customer'), [data-test='add-customer']",
+      "save": "button:has-text('Save Customer'), [data-test='save-customer']",
+      "cancel": "button:has-text('Cancel'), [data-test='cancel-customer']",
+      "edit": "button:has-text('Edit'), [data-test='edit-customer']",
+      "delete": "button:has-text('Delete'), [data-test='delete-customer']"
+    },
+    "list": {
+      "search": "input[placeholder*='search' i], [data-test='search-input']",
+      "table": "table, [data-test='customer-table']",
+      "row": "tr, [data-test='customer-row']",
+      "result": "[data-test='result'], .search-result"
+    }
+  },
+  "salesOrder": {
+    "buttons": {
+      "create": "button:has-text('Create New Sales Order'), [data-test='create-order']",
+      "save": "button:has-text('Save Order'), [data-test='save-order']",
+      "cancel": "button:has-text('Cancel'), [data-test='cancel-order']"
+    },
+    "form": {
+      "customer": "select[name*='customer' i], [data-test='customer-select']",
+      "product": "select[name*='product' i], [data-test='product-select']",
+      "quantity": "input[name*='quantity' i], [data-test='quantity']",
+      "notes": "textarea[name*='notes' i], [data-test='notes']"
+    }
+  },
+  "product": {
+    "form": {
+      "name": "input[name*='name' i], [data-test='product-name']",
+      "description": "textarea[name*='description' i], [data-test='description']",
+      "price": "input[name*='price' i], [data-test='price']",
+      "category": "select[name*='category' i], [data-test='category']"
+    },
+    "buttons": {
+      "add": "button:has-text('Add Product'), [data-test='add-product']",
+      "save": "button:has-text('Save Product'), [data-test='save-product']",
+      "edit": "button:has-text('Edit'), [data-test='edit-product']",
+      "delete": "button:has-text('Delete'), [data-test='delete-product']"
+    }
+  },
+  "validation": {
+    "required": ".required, [required], [data-test='required']",
+    "invalid": ".invalid, .is-invalid, [data-test='invalid']",
+    "valid": ".valid, .is-valid, [data-test='valid']",
+    "errorMessage": ".error-message, .invalid-feedback, [data-test='error-message']"
+  }
+}

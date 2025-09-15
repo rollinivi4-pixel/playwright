@@ -1,0 +1,81 @@
+{
+  "users": {
+    "admin": {
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin",
+      "firstName": "Admin",
+      "lastName": "User"
+    },
+    "user": {
+      "email": "user@example.com",
+      "password": "user123",
+      "role": "user",
+      "firstName": "Regular",
+      "lastName": "User"
+    },
+    "ezscm": {
+      "email": "rollinivi4+test@gmail.com",
+      "password": "User@123",
+      "role": "user",
+      "firstName": "Test",
+      "lastName": "User"
+    }
+  },
+  "testData": {
+    "customer": {
+      "valid": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john.doe@example.com",
+        "phone": "1234567890",
+        "address": "123 Main Street, City, State 12345",
+        "pincode": "12345"
+      },
+      "ezscm": {
+        "firstName": "Nisarga",
+        "lastName": "p",
+        "phone": "985689325955",
+        "address": "1, SB Market Main Road, Chickpet, Bengaluru, Karnataka 560053",
+        "pincode": "560053"
+      }
+    },
+    "product": {
+      "name": "Test Product",
+      "description": "This is a test product",
+      "price": "99.99",
+      "category": "Electronics"
+    },
+    "order": {
+      "quantity": "2",
+      "notes": "Test order notes"
+    }
+  },
+  "api": {
+    "endpoints": {
+      "login": "/api/auth/login",
+      "logout": "/api/auth/logout",
+      "customers": "/api/customers",
+      "products": "/api/products",
+      "orders": "/api/orders"
+    },
+    "headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    }
+  },
+  "validation": {
+    "email": {
+      "valid": ["test@example.com", "user.name@domain.co.uk"],
+      "invalid": ["invalid-email", "@domain.com", "user@"]
+    },
+    "phone": {
+      "valid": ["1234567890", "+1234567890", "(123) 456-7890"],
+      "invalid": ["123", "abc", "123-abc-7890"]
+    },
+    "password": {
+      "valid": ["Password123!", "MySecure@Pass1"],
+      "invalid": ["123", "password", "PASSWORD"]
+    }
+  }
+}
