@@ -68,3 +68,5 @@ npx playwright test screenshots/screenshot-sample-test.spec.js
 5. Include both success and failure scenarios
 6. Use fullPage: true for comprehensive page captures
 7. Use fullPage: false for focused viewport captures
+
+
