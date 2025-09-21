@@ -1,0 +1,47 @@
+{
+  "testInfo": {
+    "title": "Add Customer with Performance Monitoring",
+    "status": "passed",
+    "duration": 708,
+    "annotations": [
+      {
+        "type": "test-id",
+        "description": "TEST-ADD-CUSTOMER-WITH-PERFORMANCE-MONITORING"
+      },
+      {
+        "type": "priority",
+        "description": "High"
+      },
+      {
+        "type": "feature",
+        "description": "Customer Management"
+      },
+      {
+        "type": "tags",
+        "description": "performance,monitoring,load-testing"
+      }
+    ]
+  },
+  "performance": {
+    "totalDuration": 13,
+    "pageLoadTimes": [],
+    "networkRequests": 0,
+    "consoleErrors": 0,
+    "networkErrors": 0,
+    "customTimings": {
+      "total-test-duration": {
+        "start": 1757917060130,
+        "end": 1757917060136,
+        "duration": 6
+      }
+    }
+  },
+  "network": {
+    "totalRequests": 0,
+    "totalResponses": 0,
+    "failedRequests": 0,
+    "apiCalls": 0
+  },
+  "screenshots": [],
+  "timestamp": "2025-09-15T06:17:40.137Z"
+}

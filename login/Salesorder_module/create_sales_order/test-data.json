@@ -1,0 +1,116 @@
+{
+  "application": {
+    "baseUrl": "http://192.168.0.100:3000/",
+    "fallbackUrls": [
+      "http://localhost:3000/",
+      "http://127.0.0.1:3000/",
+      "https://stagingaz.ezscm.ai/",
+      "http://192.168.0.100:3000/"
+    ],
+    "timeouts": {
+      "short": 5000,
+      "medium": 10000,
+      "long": 30000
+    }
+  },
+  "login": {
+    "email": "rollinivi4+test@gmail.com",
+    "password": "User@123",
+    "keepLoggedIn": true
+  },
+  "customer": {
+    "phone": "985698562",
+    "firstName": "Nisarga",
+    "lastName": "p",
+    "address": "1, SB Market Main Road, Chickpet, Bengaluru, Karnataka 560053",
+    "pincode": "560053"
+  },
+  "salesOrder": {
+    "orderFrom": "ezSCM",
+    "location": "Bangalore",
+    "invoiceDate": "2025-01-18",
+    "customOrderNo": "SO-001",
+      "items": [
+        {
+          "itemName": "Antique Gold",
+          "quantity": 2,
+          "mrp": 100,
+          "sellingPrice": 90,
+          "hsnSac": "12345678",
+          "taxType": "GST",
+          "taxRate": 18
+        }
+      ],
+    "payment": {
+      "method": "Cash On Delivery",
+      "advanceAmount": 0,
+      "paymentTerms": {
+        "advancePercentage": 0,
+        "dispatchPercentage": 100
+      }
+    },
+    "shipping": {
+      "includeGST": true,
+      "shippingCharges": 50,
+      "expectedDeliveryDate": "2025-01-25",
+      "giftWrapping": false,
+      "giftWrapCharges": 0
+    },
+    "discount": {
+      "percentage": 5,
+      "flatAmount": 0,
+      "type": "percentage"
+    }
+  },
+  "screenshots": {
+    "enabled": true,
+    "folder": "screenshots",
+    "fullPage": true,
+    "quality": 90
+  },
+  "video": {
+    "enabled": true,
+    "mode": "retain-on-failure"
+  },
+  "keyboard": {
+    "typingDelay": 100,
+    "useKeyboardNavigation": true
+  },
+  "selectors": {
+    "login": {
+      "email": "input[type=\"email\"], input[placeholder*=\"email\" i], input[name*=\"email\" i]",
+      "password": "input[type=\"password\"], input[placeholder*=\"password\" i], input[name*=\"password\" i]",
+      "checkbox": "input[type=\"checkbox\"]",
+      "loginButton": "button:has-text(\"Log in\")"
+    },
+    "navigation": {
+      "salesOrders": "text=Sales Orders",
+      "salesOrderSBModule": "a[href=\"/Salesorders/salesorders\"], a[href*=\"salesorders\"], text=Sales Orders",
+      "createOrder": "button:has-text(\"Create New Sales Order\")",
+      "addCustomer": "button:has-text(\"Add Customer\")"
+    },
+    "customerForm": {
+      "phone": "input[type=\"tel\"], input[placeholder*=\"phone\" i], input[placeholder*=\"mobile\" i], input[name*=\"phone\" i], input[name*=\"mobile\" i], input[id*=\"phone\" i], input[id*=\"mobile\" i]",
+      "firstName": "input[placeholder*=\"first\" i], input[name*=\"first\" i]",
+      "lastName": "input[placeholder*=\"last\" i], input[name*=\"last\" i]",
+      "address": "input[placeholder*=\"address\" i], textarea[placeholder*=\"address\" i]",
+      "pincode": "input[placeholder*=\"pincode\" i], input[placeholder*=\"zip\" i]",
+      "saveButton": "button:has-text(\"Save Customer\")"
+    },
+    "verification": {
+      "searchInput": "[data-test=\"search-input\"]",
+      "searchResults": "[data-test=\"result\"]"
+    },
+    "create_sales_order": {
+      "searchInput": "input[data-test=\"search-input\"], input[placeholder*=\"Search customer\" i]",
+      "orderFrom": "select[name*=\"order\"], select[name*=\"from\"], select:first-of-type",
+      "location": "select[name*=\"location\"], select[name*=\"Location\"], select:last-of-type"
+    }
+  },
+  "test": {
+    "timeout": 120000,
+    "headed": false,
+    "parallel": false,
+    "retries": 1
+  }
+}

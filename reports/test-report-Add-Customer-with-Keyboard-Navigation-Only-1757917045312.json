@@ -1,0 +1,50 @@
+{
+  "testInfo": {
+    "title": "Add Customer with Keyboard Navigation Only",
+    "status": "failed",
+    "duration": 25988,
+    "annotations": [
+      {
+        "type": "test-id",
+        "description": "TEST-ADD-CUSTOMER-WITH-KEYBOARD-NAVIGATION-ONLY"
+      },
+      {
+        "type": "priority",
+        "description": "High"
+      },
+      {
+        "type": "feature",
+        "description": "Customer Management"
+      },
+      {
+        "type": "tags",
+        "description": "keyboard-only,accessibility,ui"
+      }
+    ]
+  },
+  "performance": {
+    "totalDuration": 22802,
+    "pageLoadTimes": [],
+    "networkRequests": 0,
+    "consoleErrors": 0,
+    "networkErrors": 0,
+    "customTimings": {
+      "total-test-duration": {
+        "start": 1757917022514,
+        "end": 1757917045309,
+        "duration": 22795
+      },
+      "login-process": {
+        "start": 1757917022516
+      }
+    }
+  },
+  "network": {
+    "totalRequests": 1,
+    "totalResponses": 0,
+    "failedRequests": 1,
+    "apiCalls": 0
+  },
+  "screenshots": [],
+  "timestamp": "2025-09-15T06:17:25.311Z"
+}
